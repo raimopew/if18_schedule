@@ -37,6 +37,7 @@ $subject_programmeerimise_alused = 'Pro&#8203;gram&#8203;mee&#8203;ri&#8203;mi&#
 $subject_digipadevuse_baaskursus = 'Di&#8203;gi&#8203;pä&#8203;de&#8203;vu&#8203;ste ba&#8203;as&#8203;kur&#8203;sus';
 $subject_andmebaaside_projekteerimine = 'And&#8203;me&#8203;baa&#8203;si&#8203;de pro&#8203;jek&#8203;tee&#8203;ri&#8203;mi&#8203;ne';
 $subject_oppimine_korgkoolis = 'Õp&#8203;pi&#8203;mi&#8203;ne kõrg&#8203;koo&#8203;lis';
+$subject_praktiline_matemaatika = 'Pra&#8203;kti&#8203;li&#8203;ne ma&#8203;te&#8203;maa&#8203;ti&#8203;ka';
 
 /* lingid */
 
@@ -48,16 +49,19 @@ $link_veebiprogrammeerimine2 = '<br><a href="http://greeny.cs.tlu.ee/~rinde/veeb
 $link_opsys_alused_ja_haldamine1 = '<a href="http://minitorn.cs.tlu.ee/IFI6209/" class="under" target="_blank">minitorn²</a>';
 $link_opsys_alused_ja_haldamine2 = '<br><a href="http://www.cs.tlu.ee/IFI6209/" class="under" target="_blank">failid²</a>';
 
-$link_programmeerimise_alused1 = '<a href="http://www.cs.tlu.ee/~inga/progbaas/" class="under" target="_blank">failid²</a>';
+$link_programmeerimise_alused1 = '<a href="http://www.cs.tlu.ee/~inga/progbaas/" class="under" target="_blank">info²</a>';
 $link_programmeerimise_alused2 = '<br><a href="http://www.cs.tlu.ee/~inga/progbaas/Prog_naited/" class="under" target="_blank">näited²</a>';
-$link_programmeerimise_alused3 = '<br><a href="http://www.cs.tlu.ee/~inga/Prog_materjalid/" class="under" target="_blank">materjalid</a>';
+$link_programmeerimise_alused3 = '<br><a href="http://www.cs.tlu.ee/~inga/Prog_materjalid/" class="under" target="_blank">loengud</a>';
 
 $link_digipadevuse_baaskursus1 = '<a href="https://www.tlu.ee/~kivik/Digipad/" class="under" target="_blank">failid</a>';
 
-$link_andmebaaside_projekteerimine1 = '<a href="http://www.cs.tlu.ee/~inga/AB_proj/" class="under" target="_blank">failid²</a>';
+$link_andmebaaside_projekteerimine1 = '<a href="http://www.cs.tlu.ee/~inga/AB_proj/" class="under" target="_blank">info²</a>';
 
 $link_oppimine_korgkoolis1 = '<a href="https://edidaktikum.ee/" class="under" target="_blank">eDidaktikum</a>';
 $link_oppimine_korgkoolis2 = '<br><a href="https://dti6001.wordpress.com/" class="under" target="_blank">kirjeldus</a>';
+
+$link_praktiline_matemaatika1 = '?';
+$link_praktiline_matemaatika2 = '';
 
 ?>
 <!DOCTYPE html>
@@ -76,7 +80,7 @@ if ($numberOfTheDay == 1) {
 } elseif ($numberOfTheDay == 3) {
 	echo "<style> .handdrawnbox.Wednesday { background-color: yellow; } </style>\n";
 } elseif ($numberOfTheDay == 4) {
-	echo "<style> .handdrawnbox.Thursday { } </style>\n";
+	echo "<style> .handdrawnbox.Thursday { background-color: yellow; } </style>\n";
 } elseif ($numberOfTheDay == 5) {
 	echo "<style> .handdrawnbox.Friday { background-color: yellow; } </style>\n";
 }
@@ -87,7 +91,7 @@ if ($numberOfTheDay == 1) {
 
 <div class="container">
 <div class="ribbon bottom-right posiFixed hotpink"><a href="changelog.log" class="specialTwo" target="_blank">changelog</a></div>
-<h5>1.1.2</h5>
+<h5>1.1.3</h5>
 <h4>IF18</h4>
 <div class="tabs">
   <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?>/>
@@ -131,7 +135,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<!-- <td>data</td> rip -->
 		<td class="handdrawnbox Wednesday"><a id="hide17" href="#hide17" class="hide"><?php echo $subject_opsys_alused_ja_haldamine ?></a><a id="show17" href="#show17" class="show"><?php echo $subject_opsys_alused_ja_haldamine ?></a><div class="more"><?php echo $link_opsys_alused_ja_haldamine1 . $link_opsys_alused_ja_haldamine2 ?></div></td>
-		<td></td>
+		<td class="handdrawnbox Thursday" rowspan="2"><a id="hide18" href="#hide18" class="hide"><?php echo $subject_praktiline_matemaatika ?></a><a id="show18" href="#show18" class="show"><?php echo $subject_praktiline_matemaatika ?></a><div class="more"><?php echo $link_praktiline_matemaatika1 . $link_praktiline_matemaatika2 ?></div></td>
 		<td></td>
 	</tr>
 	<tr>
@@ -139,7 +143,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<!--<td>X</td>-->
 		<td></td>
 	</tr>
 </table>
@@ -185,7 +189,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<!-- <td>data</td> rip -->
 		<td class="handdrawnbox Wednesday"><a id="hide27" href="#hide27" class="hide"><?php echo $subject_andmebaaside_projekteerimine ?></a><a id="show27" href="#show27" class="show"><?php echo $subject_andmebaaside_projekteerimine ?></a><div class="more"><?php echo $link_andmebaaside_projekteerimine1 ?></div></td>
-		<td></td>
+		<td class="handdrawnbox Thursday" rowspan="2"><a id="hide28" href="#hide28" class="hide"><?php echo $subject_praktiline_matemaatika ?></a><a id="show28" href="#show28" class="show"><?php echo $subject_praktiline_matemaatika ?></a><div class="more"><?php echo $link_praktiline_matemaatika1 . $link_praktiline_matemaatika2 ?></div></td>
 		<td></td>
 	</tr>
 	<tr>
@@ -193,7 +197,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<!--<td></td>-->
 		<td></td>
 	</tr>
 </table>
@@ -239,7 +243,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<!-- <td>data</td> rip -->
 		<td></td>
-		<td></td>
+		<td class="handdrawnbox Thursday" rowspan="2"><a id="hide37" href="#hide37" class="hide"><?php echo $subject_praktiline_matemaatika ?></a><a id="show37" href="#show37" class="show"><?php echo $subject_praktiline_matemaatika ?></a><div class="more"><?php echo $link_praktiline_matemaatika1 . $link_praktiline_matemaatika2 ?></div></td>
 		<td></td>
 	</tr>
 	<tr>
@@ -247,7 +251,7 @@ if ($numberOfTheDay == 1) {
 		<td></td>
 		<td class="handdrawnbox Tuesday"><a id="hide38" href="#hide38" class="hide"><?php echo $subject_opsys_alused_ja_haldamine ?></a><a id="show38" href="#show38" class="show"><?php echo $subject_opsys_alused_ja_haldamine ?></a><div class="more"><?php echo $link_opsys_alused_ja_haldamine1 . $link_opsys_alused_ja_haldamine2 ?></div></td>
 		<td></td>
-		<td></td>
+		<!--<td></td>-->
 		<td></td>
 	</tr>
 </table>
@@ -256,10 +260,6 @@ if ($numberOfTheDay == 1) {
 <h2>¹ ligipääsetav ainult läbi TLÜ lan-ist vöi tunneliga</h2>
 <h2>² no https</h2>
 <?php
-
-if ($numberOfTheDay == 4) {
-	echo "<h3>** No higlight due to no classes on Thursday</h3>";
-}
 
 if ($numberOfTheDay > 5) {
 	echo "<h3>** No highlight due to it being ";
@@ -286,7 +286,7 @@ if ($numberOfTheDay > 5) {
 	<li><a href="https://ois2.tlu.ee/" class="special" target="_blank">ÕIS</a> (https)</li>
 	<li><a id="hide40" href="#hide40" class="hide special">+ GitHub käsud (push)</a><a id="show40" href="#show40" class="show special">- GitHub käsud (push)</a><div class="more"><p>git add .</p><p>git commit -m "kommentaar"</p><p>git push</p></div></li>
 	<li><a id="hide41" href="#hide41" class="hide special">+ SQL info</a><a id="show41" href="#show41" class="show special">- SQL info</a><div class="more"><p><a href="http://greeny.cs.tlu.ee/phpMyAdmin" class="special" target="_blank">greeny.cs.tlu.ee/phpMyAdmin</a> (tunneliga ainult)</p><p>greeny (putty): mysql -uif.. -pif.. if18_nimi (spetsiaalselt ei kirjutanud välja)</p></div></li>
-	<li><a id="hide42" href="#hide42" class="hide special">+ muud materjalid</a><a id="show42" href="#show42" class="show special">- muud materjalid</a><div class="more"><p><a href="http://www.cs.tlu.ee/instituut/nouded/lopu_too/yliopilastoode_vormistusjuhend_2016a.pdf" class="special" target="_blank">Lõputöö vormistamise juhend</a></p><p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p><p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive Shared</a></p></div></li>
+	<li><a id="hide42" href="#hide42" class="hide special">+ muud materjalid</a><a id="show42" href="#show42" class="show special">- muud materjalid</a><div class="more"><p><a href="http://caupo.ee/tlu/" class="special" target="_blank">http://caupo.ee/tlu/</a></p><p><a href="http://www.cs.tlu.ee/instituut/nouded/lopu_too/yliopilastoode_vormistusjuhend_2016a.pdf" class="special" target="_blank">Lõputöö vormistamise juhend</a></p><p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p><p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive Shared</a></p><p><a href="https://products.office.com/en/student/office-in-education" class="special" target="_blank">Office 365 for students for free</a></p></div></li>
 </ul>
 <div class="by">by Raimo Pregel, 2018</div>
 </div>
