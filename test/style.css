@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+html,body {
+	height: 100%;
+	background-color: white;
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+.by {
+	float: right;
+	margin-top: 2%;
+	padding-right: 5%;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+p, h1, h2, h3, h4, h5, h8 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h2 {
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+h4 {
+	margin-top: 5%;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 8px;
+	margin-bottom: 5%;
+}
+
+h8 {
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+a.special {
+	color: hotpink;
+}
+
+a.special:hover {
+	color: black;
+}
+
+a.specialTwo {
+	color: white;
+}
+
+a.specialTwo:hover {
+	border-collapse: separate !important;
+	border-bottom: 1px solid white;
+	border-bottom-left-radius: 20px 0px;
+	border-bottom-right-radius: 225px 20px;
+}
+
+.container {
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.container ul {
+    list-style-type: square;
+	margin: 5% 0 3% 0;
+}
+
+.table {
+	padding-top: 5%;
+	width: 100%;
+	text-align: center;
+	table-layout: fixed;
+	word-wrap: break-word;
+	border-collapse: collapse;
+	border-collapse: separate !important;
+}
+
+.table th {
+	width: 16.6%;
+	height: 100px;
+}
+
+tr.weekdays {
+	font-weight: bold;
+}
+
+/* name says it all */
+
+.handdrawnbox {
+	border-collapse: separate !important;
+	border: 2px solid #444340;
+	border-bottom-left-radius: 20px 150px;
+	border-bottom-right-radius: 225px 20px;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+}
+
+/* predefined for highlights */
+
+.handdrawnbox.Monday, 
+.handdrawnbox.Tuesday, 
+.handdrawnbox.Wednesday, 
+.handdrawnbox.Thursday, 
+.handdrawnbox.Friday { }
+
+/* collapsable */
+
+.more,
+.show,
+.hide:target {
+	display: none;
+}
+
+.hide:target + .show,
+.hide:target ~ .more {
+	display: block;
+}
+
+.more a.under:link, .more a.under:visited {
+	color: hotpink;
+	font-size: 15px;
+	border-collapse: separate !important;
+	border-bottom: 1px solid #444340;
+	border-bottom-left-radius: 20px 0px;
+	border-bottom-right-radius: 225px 20px;
+}
+
+.more a.under:hover {
+	color: black;
+	border-color: hotpink;
+}
+
+/* tabs */
+
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+  
+  }
+.input {
+	position: absolute;
+	opacity: 0;
+}
+
+.label {
+	width: auto;
+	padding: 0px 10px;
+	color: black;
+ }
+
+.label:hover {
+	color: hotpink;
+}
+
+.input:focus + .label {
+	z-index: 1;
+}
+
+.input:checked + .label {
+	background: hotpink;
+	color: white;
+}
+
+.panel {
+	order: 99;
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.input:checked + .label + .panel {
+	display: block;
+}
+
+/* ribbon */
+
+.ribbon {
+	top: 25px;
+	left: -50px;
+	width: 200px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+}
+
+.ribbon.bottom-right{
+	top: auto;
+	right: -50px;
+	bottom: 25px;
+	left: auto;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transition-property: all; 
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+
+.ribbon.posiFixed {
+	position: fixed;
+}
+
+.ribbon.hotpink {
+	background: hotpink;
+}
+
+
+/* mobile device */
+
+@media only screen and (max-width: 800px) {
+	
+	.container {
+		width: 100%;
+	}
+	
+	.table th {
+		height: 100%;
+	}
+	
+	.ribbon {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	
+	.ribbon.bottom-right {
+		width: 75px;
+		top: auto;
+		right: -27px;
+		bottom: 100px;
+		left: auto;
+		transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		transition-property: all; 
+		transition-duration: 1s;
+		transition-timing-function: ease-in;
+	}
+}
