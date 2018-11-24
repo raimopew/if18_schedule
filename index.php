@@ -7,6 +7,7 @@ $numberOfTheDay = date('N');
 /* tab var */
 
 $enteredTab = ($_GET['tab']);
+$enteredTheme = ($_GET['theme']);
 
 $firstChecked = '';
 $secondChecked = '';
@@ -60,7 +61,7 @@ $link_andmebaaside_projekteerimine1 = '<a href="http://www.cs.tlu.ee/~inga/AB_pr
 $link_oppimine_korgkoolis1 = '<a href="https://edidaktikum.ee/" class="under" target="_blank">eDidaktikum</a>';
 $link_oppimine_korgkoolis2 = '<br><a href="https://dti6001.wordpress.com/" class="under" target="_blank">kirjeldus</a>';
 
-$link_praktiline_matemaatika1 = '?';
+$link_praktiline_matemaatika1 = '<a href="https://sites.google.com/site/praktilinematemaatika2019/" class="under" target="_blank">Google Sites</a>';
 $link_praktiline_matemaatika2 = '';
 
 ?>
@@ -73,16 +74,70 @@ $link_praktiline_matemaatika2 = '';
 <title>IF18</title>
 <?php
 
-if ($numberOfTheDay == 1) {
-	echo "<style> .handdrawnbox.Monday { background-color: yellow; } </style>\n";
-} elseif ($numberOfTheDay == 2) {
-	echo "<style> .handdrawnbox.Tuesday { background-color: yellow; } </style>\n";
-} elseif ($numberOfTheDay == 3) {
-	echo "<style> .handdrawnbox.Wednesday { background-color: yellow; } </style>\n";
-} elseif ($numberOfTheDay == 4) {
-	echo "<style> .handdrawnbox.Thursday { background-color: yellow; } </style>\n";
-} elseif ($numberOfTheDay == 5) {
-	echo "<style> .handdrawnbox.Friday { background-color: yellow; } </style>\n";
+if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $numberOfTheDay == 4 or $numberOfTheDay == 5 or isset($enteredTheme)){
+
+	echo "<style>";
+	
+	if ($enteredTheme == "dark"){
+		
+		echo "html,body { background-color: black; color: white; }\n";
+		echo ".container { background-color: black; color: white; }\n";
+		echo ".table { background-color: black; color: white; }\n";
+		echo "a:link, a:visited { color: white; }\n";
+		echo "a.special { color: hotpink; }\n";
+		echo "a.special:hover { color: white; }\n";
+		echo ".more a.under:hover { color: white; border-color: hotpink; }\n";
+		echo ".handdrawnbox { border: 2px solid #ffffff; }\n";
+		echo ".label { color: white; }\n";	
+		
+	} 	
+	
+	$darkColor = "#303030";
+	$otherColor = "yellow";
+	
+	if ($numberOfTheDay == 1) {
+		echo ".handdrawnbox.Monday { background-color: ";
+		if ($enteredTheme == "dark"){
+			echo $darkColor;
+		} else {
+			echo $otherColor;
+		}
+		echo "; }\n";
+	} elseif ($numberOfTheDay == 2) {
+		echo ".handdrawnbox.Tuesday { background-color: ";
+		if ($enteredTheme == "dark"){
+			echo $darkColor;
+		} else {
+			echo $otherColor;
+		}
+		echo "; }\n";
+	} elseif ($numberOfTheDay == 3) {
+		echo ".handdrawnbox.Wednesday { background-color: ";
+		if ($enteredTheme == "dark"){
+			echo $darkColor;
+		} else {
+			echo $otherColor;
+		}
+		echo "; }\n";
+	} elseif ($numberOfTheDay == 4) {		
+		echo ".handdrawnbox.Thursday { background-color: ";
+		if ($enteredTheme == "dark"){
+			echo $darkColor;
+		} else {
+			echo $otherColor;
+		}
+		echo "; }\n";
+	} elseif ($numberOfTheDay == 5) {
+		echo ".handdrawnbox.Friday { background-color: ";
+		if ($enteredTheme == "dark"){
+			echo $darkColor;
+		} else {
+			echo $otherColor;
+		}
+		echo "; }\n";
+	}
+	
+	echo "</style>";
 }
 
 ?>
@@ -91,7 +146,7 @@ if ($numberOfTheDay == 1) {
 
 <div class="container">
 <div class="ribbon bottom-right posiFixed hotpink"><a href="changelog.log" class="specialTwo" target="_blank">changelog</a></div>
-<h5>1.1.3</h5>
+<h5>1.2.0</h5>
 <h4>IF18</h4>
 <div class="tabs">
   <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?>/>
