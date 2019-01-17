@@ -68,6 +68,9 @@ $link_praktiline_matemaatika2 = '';
 <!DOCTYPE html>
 <html lang="et">
 <head>
+<script>
+	const query = new URLSearchParams(window.location.search); // see tabs for usage
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -149,7 +152,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 <h5>1.2.0</h5>
 <h4>IF18</h4>
 <div class="tabs">
-  <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?>/>
+  <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?> onclick="query.append('tab', 1);"/>
   <label class="label" for="tab-1">1. rühm</label>
   <div class="panel">
     <table class="table">
@@ -203,7 +206,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 	</tr>
 </table>
   </div>
-  <input class="input" name="tabs" type="radio" id="tab-2"<?php echo $secondChecked?>/>
+  <input class="input" name="tabs" type="radio" id="tab-2"<?php echo $secondChecked?> onclick="query.append('tab', 2);"/>
   <label class="label" for="tab-2">2. rühm</label>
   <div class="panel">
     <table class="table">
@@ -257,7 +260,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 	</tr>
 </table>
   </div>
-  <input class="input" name="tabs" type="radio" id="tab-3"<?php echo $thirdChecked?>/>
+  <input class="input" name="tabs" type="radio" id="tab-3"<?php echo $thirdChecked?> onclick="query.append('tab', 3);"/>
   <label class="label" for="tab-3">3. rühm</label>
   <div class="panel">
     <table class="table">
