@@ -312,12 +312,12 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 </table>
 <?php 
 if ($enteredTheme == "dark"){
-	$parameter = http_build_query(array_merge($_GET, array("theme"=>"")))
-	echo "<a href='" . $parameter . "'><label class='label'>Hele</label></a>"
+	$parameter = http_build_query(array_merge($_GET, array("theme"=>"")));
+	echo "<a href='" . $parameter . "'><label class='label'>Hele</label></a>";
 }
 else {
-	$parameter = http_build_query(array_merge($_GET, array("theme"=>"dark")))
-	echo "<a href='" . $parameter . "'><label class='label'>Tume</label></a>"
+	$parameter = http_build_query(array_merge($_GET, array("theme"=>"dark")));
+	echo "<a href='" . $parameter . "'><label class='label'>Tume</label></a>";
 }
 ?>
 </div>
