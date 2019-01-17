@@ -310,7 +310,17 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<td></td>
 	</tr>
 </table>
-  </div>
+<?php 
+if ($enteredTheme == "dark"){
+	$parameter = http_build_query(array_merge($_GET, array("theme"=>"")))
+	echo "<a href='" . $parameter . "'><label class='label'>Hele</label></a>"
+}
+else {
+	$parameter = http_build_query(array_merge($_GET, array("theme"=>"dark")))
+	echo "<a href='" . $parameter . "'><label class='label'>Tume</label></a>"
+}
+?>
+</div>
 </div>
 <h2>¹ ligipääsetav ainult läbi TLÜ lan-ist vöi tunneliga</h2>
 <h2>² no https</h2>
