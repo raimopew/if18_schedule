@@ -331,7 +331,7 @@ if ($numberOfTheDay > 5) {
 
 <h4>Üldinfo</h4>
 <ul>
-	<li><h8><a href="https://ifikas18.slack.com" class="special" target="_blank">ifikas18.slack.com</a></h8> or <a href="https://join.slack.com/t/ifikas18/signup" class="special" target="_blank">registreeri</a></li>
+	<li><h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">DISCORDI server</a></h8> (Slacki enam ei kasuta, see on selle asemel =) )</li>
 	<li>student:D..</li>
 	<li>\\bitt\if18 | if18:ra..</li>
 	<li>greeny.cs.tlu.ee | osa_eesnimest + osa_perenimest:pw</li>
