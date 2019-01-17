@@ -313,7 +313,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
   </div>
 </div>
 <h2>¹ ligipääsetav ainult läbi TLÜ lan-ist vöi tunneliga</h2>
-<h2>² no https</h2>
+<h2>² https (valikuline) ainult TLÜ lan-is/tunnelis</h2>
 <?php
 
 if ($numberOfTheDay > 5) {
@@ -335,14 +335,14 @@ if ($numberOfTheDay > 5) {
 	<li>student:D..</li>
 	<li>\\bitt\if18 | if18:ra..</li>
 	<li>greeny.cs.tlu.ee | osa_eesnimest + osa_perenimest:pw</li>
-	<li>lin2.tlu.ee | ÕIS kasutaja:pw</li>
+	<li>lin2.tlu.ee | ÕISi kasutaja:pw</li>
 	<li><a href="https://www.tlu.ee/asio/kalenterit2/index.php?cluokka=IFIFB-1&kt=lk&guest=intranet%2Ftu&lang=est" class="special" target="_blank">Tunniplaan</a> | <a href="https://www.tlu.ee/masio/?id=ryhm&ryhm=IFIFB-1" class="special" target="_blank">Mobiilis</a></li>
-	<li><a href="https://ois2.tlu.ee/" class="special" target="_blank">ÕIS</a> (https)</li>
+	<li><a href="https://ois2.tlu.ee/" class="special" target="_blank">ÕIS</a></li>
 	<li><a id="hide40" href="#hide40" class="hide special">+ Git push</a><a id="show40" href="#show40" class="show special">- Git push</a><div class="more"><p>git add .</p><p>git commit -m "kommentaar"</p><p>git push</p></div></li>
 	<li><a id="hide41" href="#hide41" class="hide special">+ SQL info</a><a id="show41" href="#show41" class="show special">- SQL info</a><div class="more"><p><a href="https://greeny.cs.tlu.ee/phpMyAdmin" class="special" target="_blank">greeny.cs.tlu.ee/phpMyAdmin</a> (ainult tunneliga)</p><p>greeny (putty): mysql -uif.. -pif.. if18_nimi (spetsiaalselt ei kirjutanud välja)</p></div></li>
 	<li><a id="hide42" href="#hide42" class="hide special">+ muud materjalid</a><a id="show42" href="#show42" class="show special">- muud materjalid</a><div class="more"><p><a href="http://caupo.ee/tlu/" class="special" target="_blank">http://caupo.ee/tlu/</a></p><p><a href="http://www.cs.tlu.ee/instituut/nouded/lopu_too/yliopilastoode_vormistusjuhend_2016a.pdf" class="special" target="_blank">Lõputöö vormistamise juhend</a></p><p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p><p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive Shared</a></p><p><a href="https://products.office.com/en/student/office-in-education" class="special" target="_blank">Office 365 for students for free</a></p></div></li>
 </ul>
-<div class="by">by Raimo Pregel, 2018</div>
+<div class="by">by Raimo Pregel, 2019</div>
 </div>
 
 </body>
