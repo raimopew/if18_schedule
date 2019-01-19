@@ -312,19 +312,19 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 </table>
   </div>
 </div>
-<h2>¹ ligipääsetav ainult läbi TLÜ lan-ist vöi tunneliga</h2>
-<h2>² https (valikuline) ainult TLÜ lan-is/tunnelis</h2>
+<h2>¹ ligipääsetav ainult läbi TLÜ LAN-ist või tunneliga</h2>
+<h2>² https (valikuline) ainult TLÜ LAN-is/tunnelis</h2>
 <?php
 
 if ($numberOfTheDay > 5) {
-	echo "<h3>** No highlight due to it being ";
+	echo "<h3>** Esiletõst puudub, kuna täna on ";
 	
 	if ($numberOfTheDay == 6 ) {
-		echo "Saturday</h3>";	
+		echo "laupäev</h3>";	
 	} elseif ($numberOfTheDay == 7) {
-		echo "Sunday</h3>";
+		echo "pühapäev</h3>";
 	} elseif ($numberOfTheDay > 7) {
-		echo "Alien Day (please contact Fox Molder and Dana Scully) no, seriously, please report this bug, no such day (php date('N') > 7)</h3>";
+		echo "tulnukapäev (palun võta ühendust Fox Molderi ja Dana Scullyga) aga tegelikult anna veast teada, kuna sellist päeva pole (php date('N') > 7)</h3>";
 	}
 }
 ?>
