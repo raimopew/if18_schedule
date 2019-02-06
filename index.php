@@ -171,7 +171,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 <h5>1.3.0</h5>
 <h4>IF18</h4>
 <div class="tabs">
-  <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?> onclick="query.append('tab', 1);"/>
+  <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?> onclick="query.append('tab', 'i');"/>
   <label class="label" for="tab-1">TA I</label>
   <div class="panel">
     <table class="table">
@@ -233,7 +233,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 	</tr>
 </table>
   </div>
-  <input class="input" name="tabs" type="radio" id="tab-2"<?php echo $secondChecked?> onclick="query.append('tab', 2);"/>
+  <input class="input" name="tabs" type="radio" id="tab-2"<?php echo $secondChecked?> onclick="query.append('tab', 'ii');"/>
   <label class="label" for="tab-2">TA II</label>
   <div class="panel">
     <table class="table">
@@ -295,7 +295,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 	</tr>
 </table>
   </div>
-  <input class="input" name="tabs" type="radio" id="tab-3"<?php echo $thirdChecked?> onclick="query.append('tab', 3);"/>
+  <input class="input" name="tabs" type="radio" id="tab-3"<?php echo $thirdChecked?> onclick="query.append('tab', 'dm');"/>
   <label class="label" for="tab-3">DM</label>
   <div class="panel">
     <table class="table">
