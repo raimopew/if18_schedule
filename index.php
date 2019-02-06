@@ -355,7 +355,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 </table>
   </div>
 </div>
-<h2>¹ ligipääsetav ainult läbi TLÜ LAN-ist või tunneliga</h2>
+<h2>¹ ligipääsetav ainult TLÜ LAN-is või tunnelis</h2>
 <h2>² https (valikuline) ainult TLÜ LAN-is/tunnelis</h2>
 <?php
 
