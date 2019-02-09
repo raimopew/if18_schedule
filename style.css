@@ -192,6 +192,10 @@ tr.weekdays {
 	background: #fff;
 }
 
+.lights {
+	float: right;
+}
+
 .input:checked + .label + .panel {
 	display: block;
 }
