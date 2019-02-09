@@ -176,7 +176,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
   <input class="input" name="tabs" type="radio" id="tab-1"<?php echo $firstChecked . $defaultChecked?>/>
   <label class="label" for="tab-1">TA I</label>
   <div class="panel">
-	<div class="lights">theme: <a href="?tab=i">☼ light</a> <a href="?tab=i&theme=dark">☾ dark</a></div>
+	<div class="lights">teema: <a href="?tab=i">☼ hele</a> <a href="?tab=i&theme=dark">☾ tume</a></div>
     <table class="table">
 	<tr class="weekdays">
 		<td></td>
@@ -239,7 +239,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
   <input class="input" name="tabs" type="radio" id="tab-2"<?php echo $secondChecked?>/>
   <label class="label" for="tab-2">TA II</label>
   <div class="panel">
-	<div class="lights">theme: <a href="?tab=ii">☼ light</a> <a href="?tab=ii&theme=dark">☾ dark</a></div>
+	<div class="lights">teema: <a href="?tab=ii">☼ hele</a> <a href="?tab=ii&theme=dark">☾ tume</a></div>
     <table class="table">
 	<tr class="weekdays">
 		<td></td>
@@ -302,7 +302,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
   <input class="input" name="tabs" type="radio" id="tab-3"<?php echo $thirdChecked?>/>
   <label class="label" for="tab-3">DM</label>
   <div class="panel">
-	<div class="lights">theme: <a href="?tab=dm">☼ light</a> <a href="?tab=dm&theme=dark">☾ dark</a></div>
+	<div class="lights">teema: <a href="?tab=dm">☼ hele</a> <a href="?tab=dm&theme=dark">☾ tume</a></div>
     <table class="table">
 	<tr class="weekdays">
 		<td></td>
