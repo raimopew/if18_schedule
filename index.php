@@ -417,7 +417,7 @@ if ($numberOfTheDay > 5) {
 			<p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p>
 			<p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive</a></p>
 			<p><a href="https://products.office.com/en/student/office-in-education" class="special" target="_blank">Office 365 õpilastele (piiratud)</a></p>
-			<p><a href="https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=c5b379d9-989b-e011-969d-0030487d8897" class="special" target="_blank">Microsoft Imagine veebipood</a></p>
+			<p>Microsoft Imagine: <a href="https://www.tlu.ee/dt/opingudoppetoo/microsoft-imagine" class="special" target="_blank">Hangi Imagine konto</a> | <a href="https://azureforeducation.microsoft.com/devtools" class="special" target="_blank">Hangi Microsofti tarkvara</a> (loo seal TLÜ meiliga MS konto) | <a href="https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=c5b379d9-989b-e011-969d-0030487d8897" class="special" target="_blank">Hangi muud tarkvara</a></p>
 		</div>
 	</li>
 </ul>
