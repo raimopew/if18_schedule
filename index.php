@@ -412,7 +412,7 @@ if ($numberOfTheDay > 5) {
 	<li>
 		<a id="hide42" href="#hide42" class="hide special">+ muud materjalid</a><a id="show42" href="#show42" class="show special">- muud materjalid</a>
 		<div class="more">
-			<p><a href="http://caupo.ee/tlu/" class="special" target="_blank">caupo.ee/tlu</a></p>
+			<p><a href="https://caupo.ee/tlu/" class="special" target="_blank">Caupo TLÜ PWA</a></p>
 			<p><a href="http://www.cs.tlu.ee/instituut/nouded/lopu_too/yliopilastoode_vormistusjuhend_2016a.pdf" class="special" target="_blank">Lõputöö vormistamise juhend</a></p>
 			<p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p>
 			<p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive</a></p>
