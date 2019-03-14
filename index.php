@@ -383,7 +383,7 @@ if ($numberOfTheDay > 5) {
 <h4>Üldinfo</h4>
 <ul>
 	<li>
-		<h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">DISCORDI server</a></h8> (Slacki enam ei kasuta, see on selle asemel =) )
+		<h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">DISCORDI server</a></h8>
 	</li>
 	<li>student:D..</li>
 	<li>\\bitt\if18 | if18:ra..</li>
