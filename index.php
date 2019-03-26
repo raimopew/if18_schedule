@@ -222,7 +222,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide18" href="#hide18" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show18" href="#show18" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td class="handdrawnbox Tuesday" rowspan="2"><a id="hide19" href="#hide19" class="hide"><?php echo $subject_eesrakenduste_arendamine ?></a><a id="show19" href="#show19" class="show"><?php echo $subject_eesrakenduste_arendamine ?></a><div class="more"><?php echo $link_eesrakenduste_arendamine ?></div></td>
-		<td class="handdrawnbox Wednesday"><a id="hide111" href="#hide111" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show111" href="#show111" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide111" href="#hide111" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show111" href="#show111" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -285,7 +285,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide29" href="#hide29" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show29" href="#show29" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td></td>
-		<td class="handdrawnbox Wednesday"><a id="hide211" href="#hide211" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show211" href="#show211" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide211" href="#hide211" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show211" href="#show211" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -348,7 +348,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide39" href="#hide39" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show39" href="#show39" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td></td>
-		<td class="handdrawnbox Wednesday"><a id="hide311" href="#hide311" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show311" href="#show311" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide311" href="#hide311" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show311" href="#show311" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
