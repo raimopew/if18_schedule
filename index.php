@@ -285,7 +285,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide29" href="#hide29" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show29" href="#show29" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td></td>
-		<td></td>		
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide211" href="#hide211" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show211" href="#show211" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -383,7 +383,7 @@ if ($numberOfTheDay > 5) {
 <h4>Üldinfo</h4>
 <ul>
 	<li>
-		<h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">DISCORDI server</a></h8>
+		<h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">Discordi server</a></h8>
 	</li>
 	<li>student:D..</li>
 	<li>\\bitt\if18 | if18:ra..</li>
@@ -393,7 +393,7 @@ if ($numberOfTheDay > 5) {
 		<a href="https://www.tlu.ee/asio/kalenterit2/index.php?cluokka=IFIFB-2&kt=lk&guest=intranet%2Ftu&lang=est" class="special" target="_blank">Tunniplaan</a> | <a href="https://www.tlu.ee/masio/?id=ryhm&ryhm=IFIFB-2" class="special" target="_blank">Mobiilis</a>
 	</li>
 	<li>
-		<a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">ÕIS</a> | <a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">Õppeained</a>
+		<a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">ÕIS</a> | <a href="http://dti.tlu.ee/digiois/study_programme_version.php?sp=IFIFB/18.DT" class="special" target="_blank">Õppeained</a>
 	</li>
 	<li>
 		<a id="hide40" href="#hide40" class="hide special">+ Git push</a><a id="show40" href="#show40" class="show special">- Git push</a>
