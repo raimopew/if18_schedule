@@ -222,7 +222,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide18" href="#hide18" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show18" href="#show18" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td class="handdrawnbox Tuesday" rowspan="2"><a id="hide19" href="#hide19" class="hide"><?php echo $subject_eesrakenduste_arendamine ?></a><a id="show19" href="#show19" class="show"><?php echo $subject_eesrakenduste_arendamine ?></a><div class="more"><?php echo $link_eesrakenduste_arendamine ?></div></td>
-		<td class="handdrawnbox Wednesday"><a id="hide111" href="#hide111" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show111" href="#show111" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide111" href="#hide111" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show111" href="#show111" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -285,7 +285,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide29" href="#hide29" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show29" href="#show29" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td></td>
-		<td class="handdrawnbox Wednesday"><a id="hide211" href="#hide211" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show211" href="#show211" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>		
 		<td class="handdrawnbox Thursday"><a id="hide211" href="#hide211" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show211" href="#show211" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -348,7 +348,7 @@ if ($numberOfTheDay == 1 or $numberOfTheDay == 2 or $numberOfTheDay == 3 or $num
 		<th>16:15 - 17:45</th>
 		<td class="handdrawnbox Monday"><a id="hide39" href="#hide39" class="hide"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><a id="show39" href="#show39" class="show"><?php echo $subject_algoritmid_ja_andmestruktuurid ?></a><div class="more"><?php echo $link_algoritmid_ja_andmestruktuurid ?></div></td>
 		<td></td>
-		<td class="handdrawnbox Wednesday"><a id="hide311" href="#hide311" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show311" href="#show311" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
+		<td></td>
 		<td class="handdrawnbox Thursday"><a id="hide311" href="#hide311" class="hide"><?php echo $subject_tarkvaraarenduse_praktika ?></a><a id="show311" href="#show311" class="show"><?php echo $subject_tarkvaraarenduse_praktika ?></a><div class="more"><?php echo $link_tarkvaraarenduse_praktika ?></div></td>
 		<td></td>
 	</tr>
@@ -390,10 +390,10 @@ if ($numberOfTheDay > 5) {
 	<li>greeny.cs.tlu.ee | osa_eesnimest + osa_perenimest:pw</li>
 	<li>lin2.tlu.ee | ÕIS kasutaja:pw</li>
 	<li>
-		<a href="https://www.tlu.ee/asio/kalenterit2/index.php?cluokka=IFIFB-1&kt=lk&guest=intranet%2Ftu&lang=est" class="special" target="_blank">Tunniplaan</a> | <a href="https://www.tlu.ee/masio/?id=ryhm&ryhm=IFIFB-1" class="special" target="_blank">Mobiilis</a>
+		<a href="https://www.tlu.ee/asio/kalenterit2/index.php?cluokka=IFIFB-2&kt=lk&guest=intranet%2Ftu&lang=est" class="special" target="_blank">Tunniplaan</a> | <a href="https://www.tlu.ee/masio/?id=ryhm&ryhm=IFIFB-2" class="special" target="_blank">Mobiilis</a>
 	</li>
 	<li>
-		<a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">ÕIS</a>
+		<a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">ÕIS</a> | <a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">Õppeained</a>
 	</li>
 	<li>
 		<a id="hide40" href="#hide40" class="hide special">+ Git push</a><a id="show40" href="#show40" class="show special">- Git push</a>
@@ -413,9 +413,9 @@ if ($numberOfTheDay > 5) {
 		<a id="hide42" href="#hide42" class="hide special">+ muud materjalid</a><a id="show42" href="#show42" class="show special">- muud materjalid</a>
 		<div class="more">
 			<p><a href="https://caupo.ee/tlu/" class="special" target="_blank">Caupo TLÜ PWA</a></p>
-			<p><a href="http://www.cs.tlu.ee/instituut/nouded/lopu_too/yliopilastoode_vormistusjuhend_2016a.pdf" class="special" target="_blank">Lõputöö vormistamise juhend</a></p>
-			<p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p>
 			<p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive</a></p>
+			<p><a href="https://www.tlu.ee/dt/opingudoppetoo/dokumendid-ja-juhendid" class="special" target="_blank">Dokumendid ja juhendid</a></p>
+			<p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p>
 			<p><a href="https://products.office.com/en/student/office-in-education" class="special" target="_blank">Office 365 õpilastele (piiratud)</a></p>
 			<p>Microsoft Imagine: <a href="https://www.tlu.ee/dt/opingudoppetoo/microsoft-imagine" class="special" target="_blank">Hangi Imagine konto</a> | <a href="https://azureforeducation.microsoft.com/devtools" class="special" target="_blank">Hangi Microsofti tarkvara</a> (loo seal TLÜ meiliga MS konto) | <a href="https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=c5b379d9-989b-e011-969d-0030487d8897" class="special" target="_blank">Hangi muud tarkvara</a></p>
 		</div>
