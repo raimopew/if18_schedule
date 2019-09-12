@@ -1,14 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="et">
 <head>
-<title>hey</title>
-<script type="text/javascript">
-
-	document.write("getDay() : " + dt.getDay() );
-
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<title>IF18</title>
 </head>
 <body>
-<p>Hi</p>
+
+<div class="customize"><div class="theme"></div><div class="toggleImg"></div></div>
+<div class="container">
+<div class="ribbon bottom-right posiFixed hotpink"><a href="changelog.log" class="aPopover" target="_blank">changelog</a></div>
+<div class="infoContainer"><div class="ver"><2.0.0</div><div class="by">Raimo Pregel, 2019</div></div>
+<h4>IF18</h4>
+<div class="tabs">
+  <input class="input" name="tabs" type="radio" id="tab-1">
+  <label class="label" for="tab-1">TA I</label>
+  <div class="panel">
+    <table class="gridTable" id="table1"></table>
+  </div>
+  <input class="input" name="tabs" type="radio" id="tab-2">
+  <label class="label" for="tab-2">TA II</label>
+  <div class="panel">
+    <table class="gridTable" id="table2"></table>
+  </div>
+  <input class="input" name="tabs" type="radio" id="tab-3">
+  <label class="label" for="tab-3">DM</label>
+  <div class="panel">
+    <table class="gridTable" id="table3"></table>
+  </div>
+</div>
+<div class="info" id="noHighlight">hmm</div>
+
+<h4>Üldinfo</h4>
+<ul>
+	<li>
+		<h8><a href="https://discord.gg/pTMsdgF" class="special" target="_blank">Discord server</a></h8>
+	</li>
+	<li>student Admin:ifikas..</li>
+	<li>\\bitt\if18 | if18:ra..</li>
+	<li>greeny.cs.tlu.ee | osa_eesnimest + osa_perenimest:pw</li>
+	<li>lin2.tlu.ee | ÕIS kasutaja:pw</li>
+	<li>
+		<a href="https://www.tlu.ee/asio/" class="special" target="_blank">ASIO</a> (https) | <a href="https://www.tlu.ee/asio/kalenterit2/index.php?cluokka=IFIFB-2&kt=lk&guest=intranet%2Ftu&lang=est" class="special" target="_blank">ASIO IFIF18 2.õ.-a.</a> (https)
+	</li>
+	<li>
+		<a href="https://www.tlu.ee/masio/" class="special" target="_blank">mASIO</a> (https) | <a href="https://www.tlu.ee/masio/?id=ryhm&ryhm=IFIFB-2#mASIO" class="special" target="_blank">mASIO IFIF18 2.õ.-a.</a> (https)
+	</li>
+	<li>
+		<a href="https://ois2.tlu.ee/tluois/uus_ois2.tud_leht" class="special" target="_blank">ÕIS</a> | <a href="http://dti.tlu.ee/digiois/study_programme_version.php?sp=IFIFB/18.DT" class="special" target="_blank">Õppeained</a>
+	</li>
+	<li>
+		<div class="expand">+ Git
+			<div class="more">
+				<p>git add .</p>
+				<p>git commit -m "kommentaar"</p>
+				<p>git push</p>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="expand">+ SQL
+			<div class="more">
+				<p><a href="http://greeny.cs.tlu.ee/phpMyAdmin" class="special" target="_blank">greeny.cs.tlu.ee/phpMyAdmin</a> (ainult tunneliga)</p>
+				<p>greeny (putty): mysql -uif.. -pif.. if18_nimi (spetsiaalselt ei kirjutanud välja)</p>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="expand">+ muud materjalid
+			<div class="more">
+				<p><a href="http://caupo.ee/tlu/" class="special" target="_blank">http://caupo.ee/tlu/</a></p>
+				<p><a href="https://www.tlu.ee/dt/opingudoppetoo/dokumendid-ja-juhendid" class="special" target="_blank">Dokumendid ja juhendid</a></p>
+				<p><a href="https://madis0.gitlab.io/tlu-eap/" class="special" target="_blank">Madise EAP calc</a></p>
+				<p><a href="https://drive.google.com/drive/u/0/folders/16hDQYkxrAxfkkIYyaWXUOwvxAp4VpnH1" class="special" target="_blank">Caupo TLÜ Google Drive Shared</a></p>
+				<p><a href="https://products.office.com/en/student/office-in-education" class="special" target="_blank">Office 365 õpilastele (piiratud)</a></p>
+				<p><a href="https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=c5b379d9-989b-e011-969d-0030487d8897" class="special" target="_blank">Microsoft Imagine veebipood</a></p>	</li>
+			</div>
+		</div>
+</ul>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 

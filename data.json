@@ -1,0 +1,574 @@
+{
+    "subjects": [
+        {
+            "id": 0,
+            "name": "Arvuti&shy;võrgud ja andme&shy;side",
+            "icon": "arvutivorgud-ja-andmeside.svg",
+            "times": [
+                "14:15 - 17:45"
+            ],
+            "rooms": [
+                "A-543"
+            ],
+            "links": [
+                ["http://www.cs.tlu.ee/~meelis/vorgud/", "info"],
+                ["https://www.vorgud.ee/wp-content/uploads/2014/08/Sissejuhatus_vorgutehnoloogiasse.pdf", "Raamat"]
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Intellek&shy;tuaalne omand ja andme&shy;kaitse",
+            "icon": "intellektuaalne-omand-ja-andmekaitse.svg",
+            "times": [
+                "10:15 - 11:45"
+            ],
+            "rooms": [
+                "A-543"
+            ],
+            "links": [
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=3821", "info"]
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Sisse&shy;juhatus info&shy;süsteemi&shy;desse",
+            "icon": "sissejuhatus-infosysteemidesse.svg",
+            "times": {
+                "0": "10:15 - 11:45",
+                "1": "12:15 - 13:45",
+                "3": "14:15 - 15:45"
+            },
+            "rooms": [
+                "A-406",
+                "A-543",
+                "S-303",
+                "T-302"
+            ],
+            "links": [
+                ["https://moodle.hitsa.ee/enrol/index.php?id=22589", "Moodle"]
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Interaktsiooni&shy;disain",
+            "icon": "interaktsioonidisain.svg",
+            "times": [
+                "08:15 - 09:45",
+                "08:15 - 11:45",
+                "12:15 - 15:45"
+            ],
+            "rooms": [
+                "A-543",
+                "T-302",
+                "T-302"
+            ],
+            "links": [
+                ["https://ifi6207.wordpress.com/", "WordPress"],
+                ["https://drive.google.com/drive/folders/1IPmh0rqxsttsjHpzqhmVSV_gkDY4edfF", "Drive"]
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Teoreetiline informaatika",
+            "icon": "teoreetiline-informaatika.svg",
+            "times": [
+                "08:15 - 13:45"
+            ],
+            "rooms": [
+                "A-543"
+            ],
+            "links": [
+                ["https://www.tlu.ee/~pnormak/TI2019", "info"],
+                ["http://dti.tlu.ee/digiois/course.php?c=IFI6212.DT", "DigiÕIS"]
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Diskreetse mate&shy;maatika elemendid",
+            "icon": "diskreetse-matemaatika-elemendid.svg",
+            "times": [
+                "08:15 - 11:45"
+            ],
+            "rooms": [
+                "A-543"
+            ],
+            "links": [
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=12347", "ÕIS info"]
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Objektorienteeritud programmeerimine keeles C++",
+            "icon": "objektorienteeritud-programmeerimine-keeles-cpp.svg",
+            "times": [
+                "16:15 - 18:45"
+            ],
+            "rooms": [
+                "A-406"
+            ],
+            "links": [
+                ["http://minitorn.tlu.ee/~jaagup/kool/java/kursused/19/cpp/juht.html", "akadeemiline juhend"],
+                ["https://greeny.cs.tlu.ee/~jaagup/2019/cpp", "failid"]
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Arvuti&shy;mängud",
+            "icon": "arvutimangud.svg",
+            "times": [
+                "10:15 - 11:45"
+            ],
+            "rooms": [
+                "S-233"
+            ],
+            "links": [
+                ["https://classroom.google.com/u/1/c/Mzc1MTM0NjI0Nzla", "Google classroom"]
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Computer Games",
+            "icon": "arvutimangud.svg",
+            "times": {
+                "1": "12:15 - 13:45"
+            },
+            "rooms": [
+                "e-IF4"
+            ],
+            "links": [
+                ["https://canvas.instructure.com/courses/1706276", "info"]
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Raken&shy;duste program&shy;meerimine",
+            "icon": "rakenduste-programmeerimine.svg",
+            "times": [
+                "09:00 - 11:45",
+                "12:15 - 15:00"
+            ],
+            "rooms": [
+                "S-303",
+                "A-406"
+            ],
+            "links": [
+                ["https://github.com/rakenduste-programmeerimine-2019s/rp2019", "GitHub"],
+                ["https://www.facebook.com/groups/687731538360456/", "Feisibuuk"]
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Andme&shy;baasid",
+            "icon": "andmebaasid.svg",
+            "times": [
+                "08:15 - 11:45",
+                "12:15 - 15:45"
+            ],
+            "rooms": [
+                "M-543",
+                "A-406"
+            ],
+            "links": [
+                ["https://bit.ly/Andmebaasid2019", "Feisibuuk"],
+                ["https://bit.ly/IFI6106-2019","Drive"]
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Digitaalne meedia",
+            "icon": "digitaalne-meedia.svg",
+            "times": [
+                "14:15 - 15:45"
+            ],
+            "rooms": [
+                "M-543"
+            ],
+            "links": [
+                ["http://www.cs.tlu.ee/~rinde/mm_materjal/", "info"],
+                ["http://dti.tlu.ee/digiois/course.php?c=IFI6022.DT", "DigiÕIS"]
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Veebi&shy;saidi arendus ja haldus",
+            "icon": "veebisaidi-arendus-ja-haldus.svg",
+            "times": [
+                "12:15 - 15:45"
+            ],
+            "rooms": [
+                "e-IF1"
+            ],
+            "links": [
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=46558", "ÕIS"]
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Robootika",
+            "icon": "robootika.png",
+            "times": [
+                "16:00 - 17:45"
+            ],
+            "rooms": [
+                "e-IF4"
+            ],
+            "links": [
+                ["http://www.cs.tlu.ee/IFI6203/", "info"]
+            ]
+        }
+    ],
+    "first": [
+        [
+            {
+                "id": 5,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 13,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "room": 0,
+                "time": 0,
+                "start": 5,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 10,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 3,
+                "room": 2,
+                "time": 2,
+                "start": 4,
+                "end": 6,
+                "week": 1
+            },
+            {
+                "id": 6,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 8,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 3,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 3,
+                "week": 0
+            },
+            {
+                "id": 1,
+                "room": 0,
+                "time": 0,
+                "start": 3,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 2,
+                "room": 1,
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            },
+            {
+                "id": 2,
+                "room": 3,
+                "time": 3,
+                "start": 5,
+                "end": 6,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 9,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": [
+                    "8",
+                    "2"
+                ],
+                "room": [
+                    0, 
+                    2
+                ],
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            }
+        ]
+    ],
+    "second": [
+        [
+            {
+                "id": 5,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 9,
+                "room": 1,
+                "time": 1,
+                "start": 4,
+                "end": 6,
+                "week": 2
+            },
+            {
+                "id": 13,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "room": 0,
+                "time": 0,
+                "start": 5,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 3,
+                "room": 1,
+                "time": 1,
+                "start": 2,
+                "end": 4,
+                "week": 1
+            },
+            {
+                "id": 10,
+                "room": 1,
+                "time": 1,
+                "start": 4,
+                "end": 6,
+                "week": 2
+            },
+            {
+                "id": 6,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 8,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 3,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 3,
+                "week": 0
+            },
+            {
+                "id": 1,
+                "room": 0,
+                "time": 0,
+                "start": 3,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 2,
+                "room": 1,
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            },
+            {
+                "id": 2,
+                "room": 3,
+                "time": 3,
+                "start": 5,
+                "end": 6,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": [
+                    "7",
+                    "2"
+                ],
+                "room": [
+                    0, 
+                    0
+                ],
+                "time": 0,
+                "start": 3,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": [
+                    "8",
+                    "2"
+                ],
+                "room": [
+                    0, 
+                    2
+                ],
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            }
+        ]
+    ],
+    "third": [
+        [
+            {
+                "id": 5,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 3,
+                "room": 2,
+                "time": 2,
+                "start": 4,
+                "end": 6,
+                "week": 1
+            },
+            {
+                "id": 13,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "room": 0,
+                "time": 0,
+                "start": 5,
+                "end": 7,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 6,
+                "room": 0,
+                "time": 0,
+                "start": 6,
+                "end": 8,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": 3,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 3,
+                "week": 0
+            },
+            {
+                "id": 1,
+                "room": 0,
+                "time": 0,
+                "start": 3,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": 2,
+                "room": 1,
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            },
+            {
+                "id": 11,
+                "room": 0,
+                "time": 0,
+                "start": 5,
+                "end": 6,
+                "week": 2
+            }
+        ],
+        [
+            {
+                "id": [
+                    "7",
+                    "2"
+                ],
+                "room": [
+                    0, 
+                    0
+                ],
+                "time": 0,
+                "start": 3,
+                "end": 4,
+                "week": 2
+            },
+            {
+                "id": [
+                    "8",
+                    "2"
+                ],
+                "room": [
+                    0, 
+                    2
+                ],
+                "time": 1,
+                "start": 4,
+                "end": 5,
+                "week": 2
+            }
+        ]
+    ]
+}
