@@ -50,7 +50,7 @@ a:link, a:visited {
 .gridTable {
     display: grid; 
     grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 10% repeat(6, minmax(80px, 15%));
+	grid-template-rows: 10% repeat(6, 1fr);
 	grid-auto-flow: row;
     align-items: stretch;
     justify-content: space-evenly;
@@ -129,7 +129,7 @@ a.special:hover {
 
 .container {
 	height: 100%;
-	width: 50vw;
+	width: 75%;
 	margin: 0 auto;
     background-color: white;
 }
@@ -141,8 +141,6 @@ a.special:hover {
 .ver {
 	font-size: 10px;
 }
-
-
 
 .table1, .table2, .table3 {
 	padding-top: 5%;

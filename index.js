@@ -30,7 +30,7 @@ $(document).ready(() => {
     if (!params.has("theme") && !params.has("group")){
         params.append("group", "1");
         params.append("theme", "light");
-        params.append("showIcons", "true");
+        params.append("showIcons", "false");
         updateSearchParams();
     }
 
