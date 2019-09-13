@@ -63,7 +63,7 @@ a:link, a:visited {
 	border-bottom-right-radius: 225px 20px;
 	border-top-left-radius: 255px 15px;
 	border-top-right-radius: 15px 225px;
-    padding: 2px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
 }
 
 .tableHeader {
@@ -71,16 +71,21 @@ a:link, a:visited {
     font-weight: bold;
 }
 
+.inner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.room, .time {
+	align-self: flex-start;
+	width: 100%;
+}
+
 .room {
 	font-style: italic;
 	font-size: smaller;
 	vertical-align: text-top;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.room::after {
-	content: " ";
 }
 
 .subject {
@@ -129,7 +134,7 @@ a.special:hover {
 
 .container {
 	height: 100%;
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
     background-color: white;
 }

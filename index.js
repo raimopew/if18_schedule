@@ -128,6 +128,7 @@ function createContent(group, target){
 
         $.each(this, function(y){
             let currentDiv = document.createElement("div");
+            currentDiv.className = "inner";
 
             let rowStart, rowEnd, time, p;
             let subject = ""; 
@@ -151,8 +152,6 @@ function createContent(group, target){
                         currentDiv.append(p);
                         currentDiv.append(createSpan(subject, this.id[x], true));
                     });
-
-                    p.before(" / ");
 
                 } else {
 
@@ -218,13 +217,13 @@ function createSpan(content, className, popover){
         let link = "";
         if (data.subjects[className].links.length > 1){
             $.each(data.subjects[className].links, (index, element) => {
-                link += '<a class="aPopover" href="' + element[0] + '">' + element[1] + '</a>';
+                link += '<a target="_blank" class="aPopover" href="' + element[0] + '">' + element[1] + '</a>';
                 if (data.subjects[className].links.length-1 !== index){
                     link += "<br>";
                 }
             });
         } else {
-            link = '<a class="aPopover" href="' + data.subjects[className].links[0][0] + '">' + data.subjects[className].links[0][1] + '</a>';
+            link = '<a target="_blank" class="aPopover" href="' + data.subjects[className].links[0][0] + '">' + data.subjects[className].links[0][1] + '</a>';
         }
         span.setAttribute("data-content", link);
     }
