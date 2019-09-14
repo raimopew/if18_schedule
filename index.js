@@ -208,7 +208,7 @@ function createSpan(content, className, popover){
         icon.src = "icons/" + data.subjects[className].icon;
         icon.className = "icon";
 
-        if (!isNaN(className)) span.classList.add("subject"); //span.className += " subject";
+        if (!isNaN(className)) span.classList.add("subject");
 
         span.setAttribute("tabindex", "0");
         span.setAttribute("role", "button");
@@ -227,12 +227,10 @@ function createSpan(content, className, popover){
         }
         span.setAttribute("data-content", link);
     }
-    //let currentContent = document.createTextNode(content);
     span.innerHTML = content;
     if (typeof icon !== 'undefined'){
         span.prepend(icon);
     }
-    //span.appendChild(currentContent);
     return span;
 }
 
@@ -281,7 +279,7 @@ function checkedTab(statement1, statement2, statement3){
 }
 
 function highlightDay(){
-	if (day === 6 && day === 0){
+	if (day === 6 || day === 0){
 		$('#noHighlight').html("No highlight due to it being " + days[day]);
 	} else {
 		$('.handdrawnbox.' + days[day]).css({"background-color": theme.highlight});
