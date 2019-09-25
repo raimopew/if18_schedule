@@ -205,7 +205,7 @@ function createSpan(content, className, popover){
     if (typeof className !== 'undefined') span.className = className;
     if (popover) {
         icon = document.createElement("img");
-        icon.src = "icons/" + data.subjects[className].icon;
+        icon.src = "icons/subjecticons/" + data.subjects[className].icon;
         icon.className = "icon";
 
         if (!isNaN(className)) span.classList.add("subject");
