@@ -5,7 +5,7 @@
             "name": "Arvuti&shy;võrgud ja andme&shy;side",
             "icon": "arvutivorgud-ja-andmeside.svg",
             "times": [
-                "12:15 - 17:45"
+                "14:15 - 17:45"
             ],
             "rooms": [
                 "A-543"
@@ -238,10 +238,18 @@
         ],
         [
             {
+                "id": 4,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 5,
+                "week": 2
+            },
+            {
                 "id": 0,
                 "room": 0,
                 "time": 0,
-                "start": 4,
+                "start": 5,
                 "end": 7,
                 "week": 2
             }
@@ -359,6 +367,14 @@
             }
         ],
         [
+            {
+                "id": 4,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 5,
+                "week": 2
+            },
             {
                 "id": 0,
                 "room": 0,
@@ -487,6 +503,14 @@
             }
         ],
         [
+            {
+                "id": 4,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 5,
+                "week": 2
+            },
             {
                 "id": 0,
                 "room": 0,
