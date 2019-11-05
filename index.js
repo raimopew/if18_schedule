@@ -262,7 +262,7 @@ function changeTheme(color){
 		$('body,html').css(defaultLight);
 		$('.container').css(defaultLight);
 		$('.table').css(defaultLight);
-		$('a:link, a:visited, a.special:hover').css("color", "white");
+		$('a:link, a:visited, a.special:hover').css("color", "black");
 		$('a.special').css("color", "hotpink");
 		$('.more a.under:hover').css({"color": "black", "border-color": "hotpink"});
 		$('.handdrawnbox').css("border", "2px solid #000");
