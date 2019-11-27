@@ -72,7 +72,7 @@
             "name": "Teoreetiline informaatika",
             "icon": "teoreetiline-informaatika.svg",
             "times": [
-                "08:15 - 13:45"
+                "10:15 - 13:45"
             ],
             "rooms": [
                 "A-543"
@@ -256,7 +256,7 @@
                 "id": 4,
                 "room": 0,
                 "time": 0,
-                "start": 2,
+                "start": 3,
                 "end": 5,
                 "week": 2
             },
@@ -394,7 +394,7 @@
                 "id": 4,
                 "room": 0,
                 "time": 0,
-                "start": 2,
+                "start": 3,
                 "end": 5,
                 "week": 2
             },
@@ -538,7 +538,7 @@
                 "id": 4,
                 "room": 0,
                 "time": 0,
-                "start": 2,
+                "start": 3,
                 "end": 5,
                 "week": 2
             },
