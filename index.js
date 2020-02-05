@@ -21,8 +21,6 @@ let data = $.ajax({
     dataType: 'json'
 }).responseJSON;
 
-let oddOrEvenWeek = getNumberOfWeek() % 2;
-
 $(document).ready(() => {
     // peaks arvestama 'URLSearchParams' in window
     params = new URLSearchParams(window.location.search);
@@ -134,43 +132,40 @@ function createContent(group, target){
             let subject = ""; 
             let room = "";
 
-            if (group[i][y].week === oddOrEvenWeek || group[i][y].week === 2){
-                if (group[i][y].id.length > 0){
-                    let appendOnce = true;
+            if (group[i][y].id.length > 0){
+                let appendOnce = true;
 
-                    $.each(group[i], (x) => {
-                        time = data.subjects[this.id[x]].times[this.time];
-                        if (appendOnce) {
-                            appendOnce = false;
-                            currentDiv.append(createSpan(time, "time"));
-                        }
-                        room = data.subjects[this.id[x]].rooms[this.room[x]];
-                        subject = data.subjects[this.id[x]].name;
-                        roomAndSubject = room + " " + subject; 
-                        
-                        p = createSpan(room, "room" + " " + this.id[x]);
-                        currentDiv.append(p);
-                        currentDiv.append(createSpan(subject, this.id[x], true));
-                    });
+                $.each(group[i][y].id, (x) => {
+                    time = data.subjects[this.id[x]].times[this.time];
+                    if (appendOnce) {
+                        appendOnce = false;
+                        currentDiv.append(createSpan(time, "time"));
+                    }
+                    room = data.subjects[this.id[x]].rooms[this.room[x]];
+                    subject = data.subjects[this.id[x]].name;
+                    roomAndSubject = room + " " + subject; 
+                    
+                    p = createSpan(room, "room" + " " + this.id[x]);
+                    currentDiv.append(p);
+                    currentDiv.append(createSpan(subject, this.id[x], true));
+                });
 
-                } else {
+            } else {
 
-                    time = data.subjects[group[i][y].id].times[group[i][y].time];
-                    room = data.subjects[group[i][y].id].rooms[group[i][y].room];
-                    subject = data.subjects[group[i][y].id].name;
+                time = data.subjects[group[i][y].id].times[group[i][y].time];
+                room = data.subjects[group[i][y].id].rooms[group[i][y].room];
+                subject = data.subjects[group[i][y].id].name;
 
-                    currentDiv.append(createSpan(time, "time"));
-                    currentDiv.append(createSpan(room, "room" + " " + group[i][y].id));
-                    currentDiv.append(createSpan(subject, group[i][y].id, true));
-
-                }
-
-                rowStart = group[i][y].start;
-                rowEnd = group[i][y].end;
-
-                createSubjectDiv(rowStart, rowEnd, columnStart, columnEnd, currentDiv, "handdrawnbox " + days[i+1], target);
+                currentDiv.append(createSpan(time, "time"));
+                currentDiv.append(createSpan(room, "room" + " " + group[i][y].id));
+                currentDiv.append(createSpan(subject, group[i][y].id, true));
 
             }
+
+            rowStart = group[i][y].start;
+            rowEnd = group[i][y].end;
+
+            createSubjectDiv(rowStart, rowEnd, columnStart, columnEnd, currentDiv, "handdrawnbox " + days[i+1], target);
 
         });
 
@@ -189,14 +184,6 @@ function createSubjectDiv(rowStart, rowEnd, columnStart, columnEnd, contentCombi
     let currentDiv = document.getElementById(target);
     
     currentDiv.appendChild(div);
-}
-
-// thanks to https://gist.github.com/IamSilviu/5899269#gistcomment-2773524
-function getNumberOfWeek() {
-    const today = new Date();
-    const firstDayOfYear = new Date(today.getFullYear(), 0, 1);
-    const pastDaysOfYear = (today - firstDayOfYear) / 86400000;
-    return (Math.ceil((pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7));
 }
 
 function createSpan(content, className, popover){
@@ -223,7 +210,12 @@ function createSpan(content, className, popover){
                 }
             });
         } else {
-            link = '<a target="_blank" class="aPopover" href="' + data.subjects[className].links[0][0] + '">' + data.subjects[className].links[0][1] + '</a>';
+            if (data.subjects[className].links[0][1] !== "null"){
+                link = '<a target="_blank" class="aPopover" href="' + data.subjects[className].links[0][0] + '">' + data.subjects[className].links[0][1] + '</a>';
+            } else {
+                link = '<p>' + data.subjects[className].links[0][1] + '</p>'
+            }
+
         }
         span.setAttribute("data-content", link);
     }
