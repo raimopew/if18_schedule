@@ -54,7 +54,7 @@
                 "S-422, S-428"
             ],
             "links": [
-                ["Francisco - Moodle", "https://moodle.hitsa.ee/"]
+                ["https://moodle.hitsa.ee/", "Francisco - Moodle"]
             ]
         },
         {
@@ -98,7 +98,7 @@
                 "S-303"
             ],
             "links": [
-                ["https://www.cs.tlu.ee/~meelis/admkurs/", "TLÜ"]
+                ["https://www.cs.tlu.ee/~meelis/admkurs/", "CS TLÜ"]
             ]
         },
         {
