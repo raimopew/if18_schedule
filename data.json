@@ -11,7 +11,8 @@
                 "A-543"
             ],
             "links": [
-                ["https://www.r-project.org/", "tarkvara"]
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=47744#p_oppematerjalid", "ÕIS"],
+                ["https://www.r-project.org/", "R-keele tarkvara"]
             ]
         },
         {
@@ -25,7 +26,7 @@
                 "A-402"
             ],
             "links": [
-                ["#", "null"]
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=50376#p_oppematerjalid", "ÕIS"]
             ]
         },
         {
@@ -67,7 +68,7 @@
                 "A-406"
             ],
             "links": [
-                ["#", "null"]
+                ["https://classroom.google.com/c/NjAxOTQ0MjkxNDFa", "Google Classroom"]
             ]
         },
         {
@@ -82,7 +83,7 @@
                 "e-IF1"
             ],
             "links": [
-                ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/asjade_internet/juht.html", "info"],
+                ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/asjade_internet/juht.html", "Minitorn"],
                 ["https://www.facebook.com/groups/490587227966840/", "FB grupp"]
             ]
         },
@@ -114,7 +115,7 @@
                 "A-543"
             ],
             "links": [
-                ["https://ois2.tlu.ee/tluois/aine/IFI6107.DT", "ainekava"]
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=50794#p_oppematerjalid", "ÕIS"]
             ]
         },
         {
@@ -128,7 +129,7 @@
                 "A-543"
             ],
             "links": [
-                ["https://jaanikameigas.wordpress.com/ifi6201dt/", "WordPress"]
+                ["https://jaanikameigas.wordpress.com/ifi6201dt/", "Wordpress"]
             ]
         },
         {
@@ -142,9 +143,8 @@
                 "e-IF1"
             ],
             "links": [
-                ["https://ois2.tlu.ee/tluois/aine/IFI6225.DT", "ainekava"],
-                ["https://drive.google.com/file/d/1Xz4bHubFyEPkHn8Ss5_kAZcpkDcFmMkw/view", "powerpoint"],
-                ["https://github.com/IFI6225-DT-K20", "github"]
+                ["https://drive.google.com/file/d/1Xz4bHubFyEPkHn8Ss5_kAZcpkDcFmMkw/view", "Powerpoint"],
+                ["https://github.com/IFI6225-DT-K20", "GitHub"]
             ]
         },
         {
@@ -158,9 +158,9 @@
                 "T-302"
             ],
             "links": [
-                ["http://minitorn.cs.tlu.ee/~kalle/", "info"],
-                ["http://www.tlu.ee/~kivik/Solid/", "solid"],
-                ["http://www.tlu.ee/~kivik/Solid2/", "solid2"]
+                ["https://minitorn.cs.tlu.ee/~kalle/", "Minitorn"],
+                ["https://www.tlu.ee/~kivik/Solid/", "Solid"],
+                ["https://www.tlu.ee/~kivik/Solid2/", "Solid2"]
             ]
         }
     ],
