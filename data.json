@@ -114,6 +114,10 @@
                 "A-543"
             ],
             "links": [
+                ["https://moodle.hitsa.ee/course/view.php?id=28827", "moodle"],
+                ["https://stats.cyber.ee/", "stats cyber"],
+                ["https://akit.cyber.ee/", "akit cyber"],
+                ["https://iske.ria.ee", "iske ria"],
                 ["https://ois2.tlu.ee/tluois/aine/IFI6107.DT", "ainekava"]
             ]
         },
