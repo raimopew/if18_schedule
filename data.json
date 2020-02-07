@@ -12,6 +12,7 @@
             ],
             "links": [
                 ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=47744#p_oppematerjalid", "ÕIS"],
+                ["https://cdn.discordapp.com/attachments/523891924407418900/674588332059000832/9789949322183.pdf", "Õpik"],
                 ["https://www.r-project.org/", "R-keele tarkvara"]
             ]
         },
@@ -26,7 +27,8 @@
                 "A-402"
             ],
             "links": [
-                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=50376#p_oppematerjalid", "ÕIS"]
+                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=50376#p_oppematerjalid", "ÕIS"],
+                ["https://www.investigatii.md/uploads/resurse/Clean_Code.pdf", "Raamat"]
             ]
         },
         {
@@ -116,7 +118,7 @@
             ],
             "links": [
                 ["https://moodle.hitsa.ee/course/view.php?id=28827", "Moodle"],
-                ["https://iske.ria.ee", "iske ria"]
+                ["https://iske.ria.ee", "ISKE (RIA)"]
             ]
         },
         {
