@@ -115,7 +115,8 @@
                 "A-543"
             ],
             "links": [
-                ["https://moodle.hitsa.ee/course/view.php?id=28827", "ÕIS"]
+                ["https://moodle.hitsa.ee/course/view.php?id=28827", "Moodle"],
+                ["https://iske.ria.ee", "iske ria"]
             ]
         },
         {
@@ -370,7 +371,7 @@
         [
             {
                 "id": 5,
-                "room": 0,
+                "room": 1,
                 "time": 0,
                 "start": 4,
                 "end": 6,
