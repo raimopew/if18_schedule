@@ -8,19 +8,16 @@ const assets = [
     '/style.css',
     '/icons/favicons/browserconfig.xml',
     '/icons/favicons/favicon.ico',
-    './icons/subjecticons/objektorienteeritud-programmeerimine-keeles-cpp.svg',
-    './icons/subjecticons/andmebaasid.svg',
-    './icons/subjecticons/rakenduste-programmeerimine.svg',
-    './icons/subjecticons/veebisaidi-arendus-ja-haldus.svg',
-    './icons/subjecticons/arvutivorgud-ja-andmeside.svg',
-    './icons/subjecticons/intellektuaalne-omand-ja-andmekaitse.svg',
-    './icons/subjecticons/teoreetiline-informaatika.svg',
-    './icons/subjecticons/sissejuhatus-infosysteemidesse.svg',
-    './icons/subjecticons/robootika.png',
-    './icons/subjecticons/interaktsioonidisain.svg',
-    './icons/subjecticons/arvutimangud.svg',
-    './icons/subjecticons/digitaalne-meedia.svg',
-    './icons/subjecticons/diskreetse-matemaatika-elemendid.svg'
+    './icons/subjecticons/3d-modelleerimine.svg.svg',
+    './icons/subjecticons/agiilne-tarkvaraarendus.svg',
+    './icons/subjecticons/arvutite-vorkude-haldamine.svg',
+    './icons/subjecticons/asjade-internet.svg',
+    './icons/subjecticons/erialane-inglise-keel.svg',
+    './icons/subjecticons/kasutajaliideste-disain-arendus.svg',
+    './icons/subjecticons/mobiilirakenduste-arendamine.svg',
+    './icons/subjecticons/sissejuhatus-infoturbesse.svg',
+    './icons/subjecticons/teaduslik-motteviis.svg',
+    './icons/subjecticons/toenaosusteooria-elemendid.svg'
 ];
 
 // cache size limit function
