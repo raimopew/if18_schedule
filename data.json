@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Intelligentsed süsteemid",
-            "icon": "toenaosusteooria-elemendid.svg",
+            "icon": "intelligentsed-susteemid.svg",
             "times": [
                 "12:15 - 15:45"
             ],
@@ -17,7 +17,7 @@
         {
             "id": 1,
             "name": "Veebiraamistikud",
-            "icon": "agiilne-tarkvaraarendus.svg",
+            "icon": "veebiraamistikud.svg",
             "times": [
                 "8:15 - 11:45"
             ],
