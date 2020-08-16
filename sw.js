@@ -8,16 +8,8 @@ const assets = [
     '/style.css',
     '/icons/favicons/browserconfig.xml',
     '/icons/favicons/favicon.ico',
-    './icons/subjecticons/3d-modelleerimine.svg.svg',
-    './icons/subjecticons/agiilne-tarkvaraarendus.svg',
-    './icons/subjecticons/arvutite-vorkude-haldamine.svg',
-    './icons/subjecticons/asjade-internet.svg',
-    './icons/subjecticons/erialane-inglise-keel.svg',
-    './icons/subjecticons/kasutajaliideste-disain-arendus.svg',
-    './icons/subjecticons/mobiilirakenduste-arendamine.svg',
-    './icons/subjecticons/sissejuhatus-infoturbesse.svg',
-    './icons/subjecticons/teaduslik-motteviis.svg',
-    './icons/subjecticons/toenaosusteooria-elemendid.svg'
+    './icons/subjecticons/intelligentsed-susteemid.svg',
+    './icons/subjecticons/veebiraamistikud.svg'
 ];
 
 // cache size limit function

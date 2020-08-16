@@ -122,7 +122,12 @@ function createContent(group, target){
     $.each(group, function(i){
         let span = createSpan(days[i+1]);
 
-        createSubjectDiv(rowStart, rowEnd, columnStart, columnEnd, span, "tableHeader", target);
+        let headerClass = "tableHeader"
+
+        // adding "noSubjects" class if the current days subjects arraylist is empty (hidden in mobile view)
+        if (!group[i].length) headerClass += " noSubjects";
+
+        createSubjectDiv(rowStart, rowEnd, columnStart, columnEnd, span, headerClass, target);
 
         $.each(this, function(y){
             let currentDiv = document.createElement("div");

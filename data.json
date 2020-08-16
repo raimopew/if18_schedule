@@ -2,294 +2,65 @@
     "subjects": [
         {
             "id": 0,
-            "name": "Tõenäosus&shy;teooria elemendid",
-            "icon": "toenaosusteooria-elemendid.svg",
+            "name": "Intelligentsed süsteemid",
+            "icon": "intelligentsed-susteemid.svg",
             "times": [
-                "14:15 - 15:45"
+                "12:15 - 15:45"
             ],
             "rooms": [
-                "A-543"
+                "A-406",
+                "M-217"
             ],
             "links": [
-                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=47744#p_oppematerjalid", "ÕIS"],
-                ["https://cdn.discordapp.com/attachments/523891924407418900/674588332059000832/9789949322183.pdf", "Õpik"],
-                ["https://www.r-project.org/", "R-keele tarkvara"]
+                ["https://ois2.tlu.ee/tluois/aine/IFI6057.DT", "Ainekaart"]
             ]
         },
         {
             "id": 1,
-            "name": "Agiilne tarkvara&shy;arendus",
-            "icon": "agiilne-tarkvaraarendus.svg",
+            "name": "Veebiraamistikud",
+            "icon": "veebiraamistikud.svg",
             "times": [
-                "16:15 - 17:45"
+                "8:15 - 11:45"
             ],
             "rooms": [
-                "A-402"
+                "M-217"
             ],
             "links": [
-                ["https://ois2.tlu.ee/tluois/!uus_ois2.ois_public.page?_page=4A012E8D2A0B1470E4011CBEF33BC141153B8AEB279EABF7&p_id=50376#p_oppematerjalid", "ÕIS"],
-                ["https://www.investigatii.md/uploads/resurse/Clean_Code.pdf", "Raamat"]
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Eri&shy;alane inglise keel I",
-            "icon": "erialane-inglise-keel.svg",
-            "times": [
-                "16:15 - 17:45"
-            ],
-            "rooms": [
-                "A-346, S-238"
-            ],
-            "links": [
-                ["https://cdn.discordapp.com/attachments/523891874138685478/674682255569977355/Enterprise-4-Gramar.pdf", "Aita - Enterprise Grammar"]
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Eri&shy;alane inglise keel II",
-            "icon": "erialane-inglise-keel.svg",
-            "times": [
-                "16:15 - 17:45"
-            ],
-            "rooms": [
-                "S-422, S-428"
-            ],
-            "links": [
-                ["https://moodle.hitsa.ee/course/view.php?id=28868", "Francisco - Moodle"]
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Mobiili&shy;rakenduste arendamine",
-            "icon": "mobiilirakenduste-arendamine.svg",
-            "times": [
-                "18:15 - 19:45"
-            ],
-            "rooms": [
-                "A-406"
-            ],
-            "links": [
-                ["https://classroom.google.com/c/NjAxOTQ0MjkxNDFa", "Google Classroom"]
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Asjade internet",
-            "icon": "asjade-internet.svg",
-            "times": [
-                "12:15 - 15:45"
-            ],
-            "rooms": [
-                "T-302",
-                "e-IF1"
-            ],
-            "links": [
-                ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/asjade_internet/juht.html", "Minitorn"],
-                ["https://www.facebook.com/groups/490587227966840/", "FB grupp"]
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Arvutite ja võrkude haldamine",
-            "icon": "arvutite-vorkude-haldamine.svg",
-            "times": [
-                "12:15 - 15:45"
-            ],
-            "rooms": [
-                "S-303"
-            ],
-            "links": [
-                ["https://www.cs.tlu.ee/~meelis/admkurs/", "CS TLÜ"]
-            ]
-        },
-        {
-            "id": 7,
-            "name": "Sisse&shy;juhatus info&shy;turbesse",
-            "icon": "sissejuhatus-infoturbesse.svg",
-            "times": [
-                "14:15 - 15:45",
-                "16:15 - 17:45",
-                "18:15 - 19:45"
-            ],
-            "rooms": [
-                "A-406",
-                "A-543"
-            ],
-            "links": [
-                ["https://moodle.hitsa.ee/course/view.php?id=28827", "Moodle"],
-                ["https://iske.ria.ee", "ISKE (RIA)"]
-            ]
-        },
-        {
-            "id": 8,
-            "name": "Teaduslik mõtteviis",
-            "icon": "teaduslik-motteviis.svg",
-            "times": [
-                "12:15 - 13:45"
-            ],
-            "rooms": [
-                "A-543"
-            ],
-            "links": [
-                ["https://jaanikameigas.wordpress.com/ifi6201dt/", "Wordpress"]
-            ]
-        },
-        {
-            "id": 9,
-            "name": "Kasutaja&shy;liideste disain ja arendus",
-            "icon": "kasutajaliideste-disain-arendus.svg",
-            "times": [
-                "12:15 - 13:45"
-            ],
-            "rooms": [
-                "e-IF1"
-            ],
-            "links": [
-                ["https://drive.google.com/file/d/1Xz4bHubFyEPkHn8Ss5_kAZcpkDcFmMkw/view", "Powerpoint"],
-                ["https://github.com/IFI6225-DT-K20", "GitHub"]
-            ]
-        },
-        {
-            "id": 10,
-            "name": "3D model&shy;leerimine",
-            "icon": "3d-modelleerimine.svg",
-            "times": [
-                "10:15 - 13:45"
-            ],
-            "rooms": [
-                "T-302"
-            ],
-            "links": [
-                ["https://minitorn.cs.tlu.ee/~kalle/", "Minitorn"],
-                ["https://www.tlu.ee/~kivik/Solid/", "Solid"],
-                ["https://www.tlu.ee/~kivik/Solid2/", "Solid2"]
+                ["https://ois2.tlu.ee/tluois/aine/IFI6095.DT", "Ainekaart"]
             ]
         }
     ],
     "first": [
         [
+        ],
+        [
+        ],
+        [
             {
                 "id": 0,
                 "room": 0,
                 "time": 0,
-                "start": 5,
+                "start": 4,
                 "end": 6,
                 "week": 0
-            },
+            }
+        ],
+        [
+        ],
+        [
             {
                 "id": 1,
                 "room": 0,
                 "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 10,
-                "room": 0,
-                "time": 0,
-                "start": 3,
-                "end": 5,
+                "start": 2,
+                "end": 4,
                 "week": 0
             },
             {
                 "id": 0,
-                "room": 0,
-                "time": 0,
-                "start": 5,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 4,
-                "room": 0,
-                "time": 0,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 5,
-                "room": 0,
-                "time": 0,
-                "start": 4,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 6,
-                "room": 0,
-                "time": 0,
-                "start": 4,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": 7,
                 "room": 1,
-                "time": 1,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 2,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 8,
-                "room": 0,
                 "time": 0,
                 "start": 4,
-                "end": 5,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 0,
-                "start": 5,
                 "end": 6,
                 "week": 0
             }
@@ -297,119 +68,35 @@
     ],
     "second": [
         [
+        ],
+        [
+        ],
+        [
             {
                 "id": 0,
                 "room": 0,
                 "time": 0,
-                "start": 5,
+                "start": 4,
                 "end": 6,
                 "week": 0
-            },
+            }
+        ],
+        [
+        ],
+        [
             {
                 "id": 1,
                 "room": 0,
                 "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 10,
-                "room": 0,
-                "time": 0,
-                "start": 3,
-                "end": 5,
+                "start": 2,
+                "end": 4,
                 "week": 0
             },
             {
                 "id": 0,
-                "room": 0,
-                "time": 0,
-                "start": 5,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 4,
-                "room": 0,
-                "time": 0,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 5,
                 "room": 1,
                 "time": 0,
                 "start": 4,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 1,
-                "time": 1,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 2,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 8,
-                "room": 0,
-                "time": 0,
-                "start": 4,
-                "end": 5,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 0,
-                "start": 5,
                 "end": 6,
                 "week": 0
             }
@@ -417,119 +104,27 @@
     ],
     "third": [
         [
-            {
-                "id": 9,
-                "room": 0,
-                "time": 0,
-                "start": 4,
-                "end": 5,
-                "week": 0
-            },
+        ],
+        [
+        ],
+        [
             {
                 "id": 0,
-                "room": 0,
-                "time": 0,
-                "start": 5,
-                "end": 6,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 10,
-                "room": 0,
-                "time": 0,
-                "start": 3,
-                "end": 5,
-                "week": 0
-            },
-            {
-                "id": 0,
-                "room": 0,
-                "time": 0,
-                "start": 5,
-                "end": 6,
-                "week": 0
-            },
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 4,
-                "room": 0,
-                "time": 0,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": [
-                    "2",
-                    "3"
-                ],
-                "room": [
-                    0, 
-                    0
-                ],
-                "time": 0,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 6,
                 "room": 0,
                 "time": 0,
                 "start": 4,
                 "end": 6,
                 "week": 0
-            },
+            }
+        ],
+        [
+        ],
+        [
             {
-                "id": 7,
+                "id": 0,
                 "room": 1,
-                "time": 1,
-                "start": 6,
-                "end": 7,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 2,
-                "start": 7,
-                "end": 8,
-                "week": 0
-            }
-        ],
-        [
-            {
-                "id": 8,
-                "room": 0,
                 "time": 0,
                 "start": 4,
-                "end": 5,
-                "week": 0
-            },
-            {
-                "id": 7,
-                "room": 0,
-                "time": 0,
-                "start": 5,
                 "end": 6,
                 "week": 0
             }
