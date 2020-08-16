@@ -8,7 +8,8 @@
                 "12:15 - 15:45"
             ],
             "rooms": [
-                "A-406, M-217"
+                "A-406",
+                "M-217"
             ],
             "links": [
                 ["https://ois2.tlu.ee/tluois/aine/IFI6057.DT", "Ainekaart"]
@@ -40,7 +41,7 @@
                 "room": 0,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ],
@@ -51,16 +52,16 @@
                 "id": 1,
                 "room": 0,
                 "time": 0,
-                "start": 0,
+                "start": 2,
                 "end": 4,
                 "week": 0
             },
             {
                 "id": 0,
-                "room": 0,
+                "room": 1,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ]
@@ -76,7 +77,7 @@
                 "room": 0,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ],
@@ -87,16 +88,16 @@
                 "id": 1,
                 "room": 0,
                 "time": 0,
-                "start": 0,
+                "start": 2,
                 "end": 4,
                 "week": 0
             },
             {
                 "id": 0,
-                "room": 0,
+                "room": 1,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ]
@@ -112,7 +113,7 @@
                 "room": 0,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ],
@@ -121,10 +122,10 @@
         [
             {
                 "id": 0,
-                "room": 0,
+                "room": 1,
                 "time": 0,
                 "start": 4,
-                "end": 6,
+                "end": 8,
                 "week": 0
             }
         ]

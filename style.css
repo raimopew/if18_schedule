@@ -261,14 +261,18 @@ a.special:hover {
 @media screen and (max-width: 900px) {
 
 	.gridTable {
-	  display: unset;
+		display: unset;
 	}
   
 	.tableHeader {
-	  margin: 25px 0 10px 0;
+		margin: 25px 0 10px 0;
 	}
 
 	.container {
 		width: 90%;
+	}
+
+	.noSubjects {
+		display: none;
 	}
 }
