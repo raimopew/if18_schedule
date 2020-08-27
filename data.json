@@ -30,6 +30,20 @@
                 ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/veebiraamistikud_tallinn/", "Minitorn"],
                 ["https://ois2.tlu.ee/tluois/aine/IFI6095.DT", "Ainekaart"]
             ]
+        },
+        {
+            "id": 2,
+            "name": "3D animeerimine",
+            "icon": "3d-animeerimine.svg",
+            "times": [
+                "10:15 - 11:45"
+            ],
+            "rooms": [
+                "A-406"
+            ],
+            "links": [
+                ["https://ois2.tlu.ee/tluois/aine/IFI6102.DT", "Ainekaart"]
+            ]
         }
     ],
     "first": [
@@ -110,6 +124,14 @@
         [
         ],
         [
+            {
+                "id": 2,
+                "room": 0,
+                "time": 0,
+                "start": 2,
+                "end": 4,
+                "week": 0
+            },
             {
                 "id": 0,
                 "room": 0,
