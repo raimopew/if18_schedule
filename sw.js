@@ -9,7 +9,8 @@ const assets = [
     '/icons/favicons/browserconfig.xml',
     '/icons/favicons/favicon.ico',
     './icons/subjecticons/intelligentsed-susteemid.svg',
-    './icons/subjecticons/veebiraamistikud.svg'
+    './icons/subjecticons/veebiraamistikud.svg',
+    './icons/subjecticons/3d-animeerimine.svg'
 ];
 
 // cache size limit function
