@@ -12,7 +12,10 @@
                 "M-217"
             ],
             "links": [
+                ["https://meet.google.com/kck-qhhy-gcj", "Google Meet"],
                 ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/intelligentsed_systeemid/", "Minitorn"],
+                ["https://minitorn.tlu.ee/~jaagup/kool/java/naited20/html/prolog/", "Näited"],
+                ["https://greeny.cs.tlu.ee/~jaagup/2020/intsys/", "Tunnitöö (Greeny)"],
                 ["https://ois2.tlu.ee/tluois/aine/IFI6057.DT", "Ainekaart"]
             ]
         },
@@ -27,8 +30,8 @@
                 "M-217"
             ],
             "links": [
-                ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/veebiraamistikud_tallinn/", "Minitorn"],
-                ["https://ois2.tlu.ee/tluois/aine/IFI6095.DT", "Ainekaart"]
+                ["https://meet.google.com/kck-qhhy-gcj", "Google Meet"],
+                ["https://minitorn.tlu.ee/~jaagup/kool/java/kursused/20/veebiraamistikud_tallinn/", "Minitorn"]
             ]
         },
         {
