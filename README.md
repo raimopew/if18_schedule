@@ -3,4 +3,4 @@
 Hosted on: https://if18.netlify.com
 
 ## Author:
-Made by [Raimo Pregel](https://github.com/raimop)
+Made by [Raimo Pregel](https://github.com/raimopew)
